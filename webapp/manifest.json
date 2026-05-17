@@ -7,8 +7,8 @@
     "applicationVersion": {
       "version": "0.0.1"
     },
-    "title": "{{appTitle}}",
-    "description": "{{appDescription}}",
+    "title": "Purchase App",
+    "description": "Purchase Application",
     "resources": "resources.json",
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
@@ -16,13 +16,7 @@
       "toolsId": "502b1266-4f83-40b3-a129-9c81d590bfa1"
     },
     "dataSources": {
-      "ZSB_MM_PURCHASE83_VAN": {
-        "uri": "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='ZSB_MM_PURCHASE83_VAN',Version='0001')/$value/",
-        "type": "ODataAnnotation",
-        "settings": {
-          "localUri": "localService/mainService/ZSB_MM_PURCHASE83_VAN.xml"
-        }
-      },
+ 
       "annotation": {
         "type": "ODataAnnotation",
         "uri": "annotations/annotation.xml",
@@ -35,7 +29,7 @@
         "type": "OData",
         "settings": {
           "annotations": [
-            "ZSB_MM_PURCHASE83_VAN",
+           
             "annotation"
           ],
           "localUri": "localService/mainService/metadata.xml",
